@@ -9,5 +9,6 @@ public class BlogApiApplication {
 	public static void main(String[] args) {
 		SpringApplication app = new SpringApplication(BlogApiApplication.class);
 		app.run(args);
+		System.out.println("is running+++++++++++++++++++++++++++++++");
 	}
 }
